@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_deal_list"
+            android:icon="@drawable/event_note_black_18dp"
+            android:title="@string/title_deal_list" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/category_black_18dp"
+            android:title="@string/title_category" />
+        <item
+            android:id="@+id/nav_trending"
+            android:icon="@drawable/trending_up_black_18dp"
+            android:title="@string/title_trending" />
+    </group>
+
+</menu>
